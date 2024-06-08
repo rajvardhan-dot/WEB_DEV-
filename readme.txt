@@ -115,6 +115,146 @@ iNTERVIEW QUESTION:
 
 Float tag is used to shift box left right top and bottom
 
+*****CSS GRADIENTS:
+
+(by default gradient top to bottom hota hain)
+      css gradient let you display smooth transistion between two or more specified colors.
+      linear gradient(goes down/up/left/right/diagonally)
+      Radial gradient(defined by their center)
+      conic gradient(rotated around a center point)
+    * Linear Gradient:
+    A linear gradient in CSS is a way to create a smooth transition between two or more specified colors along a straight line(to right , to left , to bottom , to up , to bottom left , to bottom right)
+           *Default direction
+           *specific direction
+           *using angles
+           *using transparency by giving 4 values in RGBA
+           background image sbse last wali ki priority jada hoti hain
+
+    * Radial gradient: 
+          it is defined by its center.
+    * conic gradient:
+        gradient with color transistion rotated around a center point
+     
+
+******Shadow effect
+Text-Shadow(text pe shadow apply krne ke liye)(A-Horizontal , B-vertical , C-blur , colors  )
+spread radius:  ? 
+Box-Shadow(box pe shadow apply krne ke liye)(text ka color sahdow ka color hota hain)(by giving negative value we can change the direction from bottom side to top side)
+
+*******CSS DIMENSTION PROPERTIES:
+    width
+    height
+    min-height
+    min-width
+    max-height(agar content min size se bada hain toh content ka size bhi badh jayega apne aap)
+    max-width
+
+*****Overflow Property:
+    Visible(overflow content visible hoga)
+    Hidden (content hidden hoga)
+    Scroll(overflow content scroll hoga kr dikhega )
+    Auto(chhote content me visible and bade content me scroll)
+    overflow is the shorthand property of overflow.x and overflow.y
+
+*****CSS Position property
+     *Static(by default static  )
+     *relative(relative to normal position) left right top bottom
+     *fixed(will be fixed in one posi)
+     *absolute(ancestor ke repect me, image overlap krne me use hota hain)
+     *sticky(wil fix after scrolling) toggle between two position relative and fixed
+
+     Display- inline block;  matlab box ko ek line me align  kara do
+
+****CSS-2D transforms
+     *translate()
+     *rotate()
+     *scaleX(ZOOM ke liye use hota hain) scale(2,3) - first will be horizontal and second will  be vertical 
+     *scaleY()
+     *skewX()
+     *skewY()
+     *skew(tilt ho jayega by some angle )
+     *matrix( single property iska use krke top ki sari property apply kr skte hai aap)
+     
+****CSS flex Box:
+    Layout model:  space distribution
+                   align capability
+    flex box is a type of container 
+         parent container - > child/ flex items
+         main axis -horizontal
+         cross-vertical
+        
+        flex container property:
+
+            flex-direction: box ki direction decide krta hain row , row-reverse , col , col-reverse
+
+            flex-wrap: boxes ko squeeze krne ki jagah unko neeche shift kr dega (default value-no wrap , wrap-reverse , wrap)
+
+            flex-flow(shorthand notaion, wrap and direction ek saath use kr skte hain =>  flex flow: row wrap)
+
+            justify-content(Horizontal) main axis ke around 
+                     -flex-start(start me Aa jayegi chile box)
+                     -flex-end(end me chake jayegi sari boxes)
+                     -center(all child box will be in the center)
+                     -space-around(space ke saath distribute ho jayege boxes sare)
+                     -space-evenly(equal space)
+                     -space-between(proper spacing between items - 2 in corner rest in equal distribution)
+                *gap:10px(shorthand notation -> row-gap , col-gap) ->to generate gap between boxes
+
+            align-items(by default stretch hoti hain) vertical axis
+                   -flex-start(vertical axis ke according element top pe rhege)
+                   -flex-end(element end me rhege)
+                   -center(element in center)
+                   -stretch - box parent container ke barabar ho jayegi
+                   -baseline(box ka content ek line pe hoga)
+
+            align-content: iska use krke boxex ke beech ka gap remove jo jayega
+                   -flex-start
+                   -flex-end
+                   -center
+                   -space-between
+                   -space around
+                   -space-evenly
+
+
+
+flex item property:
+            order(child box ka order change krna chahta hu)
+            flex-grow(by default value is 0 , flex-grow se box ka size increase ho jata hain )
+            flex-shrink(by default value 1 hoti hain , responsive website ke liye isse ye pta chalega ki konsa box chhota hoga aur konsa nahi )
+            flex-basis(Width dene ke liye use hota hain , width and flex-basis dono ka kaam same hota hain lagbhag but flex-basis se sara content visible hoga and sirf width se content cut ho jayega )
+            flex(shirthand notation hain , upar ki 4 property handle kr skte ho)
+            align-self(indivisual boxes ki property set krne ke liye use hota hain, align-self: stretch or flex-end )
+
+    
+
+*****CSS GRID*****
+CSS grid(Two dimension layout , it keep content in the form of row and column with gap (row gap , and column gap)) ->flex box how content will flow, grid is simple Layout.
+flex box is relative to content and grid is about simple layout creation
+flex box is 1D , grid is 2D
+
+line based placement:
+grid-column-start
+grid-column-end
+grid-row-start
+grid-row-end
+shirthand PROPERTIES: grid-row , grid-column , grid area
+
+***Some more PROPERTIES
+   justify-content (start , end , center , sapce evenly , space around ,  space between)
+   justify content
+   justify self
+   justify item
+
+   align item 
+   align self
+   place self
+   place item 
+
+
+
+
+
+
 
 
 

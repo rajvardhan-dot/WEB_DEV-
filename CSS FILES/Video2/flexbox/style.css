@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    height:500px;
+    border:2px solid green;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+      
+
+}
+
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+    width: 50px;
+}
+#box1{
+    order:1;
+}
+#box3{
+    order: 8;
+}
