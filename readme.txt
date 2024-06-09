@@ -214,6 +214,54 @@ Box-Shadow(box pe shadow apply krne ke liye)(text ka color sahdow ka color hota 
                    -space-between
                    -space around
                    -space-evenly
+<<<<<<< HEAD
+=======
+
+
+
+flex item property:
+            order(child box ka order change krna chahta hu)
+            flex-grow(by default value is 0 , flex-grow se box ka size increase ho jata hain )
+            flex-shrink(by default value 1 hoti hain , responsive website ke liye isse ye pta chalega ki konsa box chhota hoga aur konsa nahi )
+            flex-basis(Width dene ke liye use hota hain , width and flex-basis dono ka kaam same hota hain lagbhag but flex-basis se sara content visible hoga and sirf width se content cut ho jayega )
+            flex(shirthand notation hain , upar ki 4 property handle kr skte ho)
+            align-self(indivisual boxes ki property set krne ke liye use hota hain, align-self: stretch or flex-end )
+
+    
+
+*****CSS GRID*****
+CSS grid(Two dimension layout , it keep content in the form of row and column with gap (row gap , and column gap)) ->flex box how content will flow, grid is simple Layout.
+flex box is relative to content and grid is about simple layout creation
+flex box is 1D , grid is 2D
+
+line based placement:
+grid-column-start
+grid-column-end
+grid-row-start
+grid-row-end
+shirthand PROPERTIES: grid-row , grid-column , grid area
+
+***Some more PROPERTIES
+   justify-content (start , end , center , sapce evenly , space around ,  space between)
+   justify content
+   justify self
+   justify item
+
+   align item 
+   align self
+   place self
+   place item 
+
+
+
+
+
+
+
+
+
+
+>>>>>>> df099d5ead7666255d6679b01ddba227f1c3062c
 
 
 
